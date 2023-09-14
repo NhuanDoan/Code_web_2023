@@ -1,0 +1,152 @@
+header {
+    text-transform: uppercase;
+    width: 100%;
+    height: 80px;
+    border: 1px solid rgb(252, 139, 139);
+    text-align: center;
+    text-shadow: 9px 7px 1px rgba(179, 4, 4, 0.2);
+    color: rgb(179, 4, 4);
+    font-style: italic;
+}
+
+nav {
+    background-color: rgb(245, 161, 161);
+    height: 37px;
+    width: 100%;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0 30px;
+    border-right: 1px solid blue;
+    font-weight: bolder;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:first-child {
+    margin: 0;
+    padding-right: 10px;
+}
+
+nav a img {
+    width: 24px;
+    height: auto;
+    
+}
+
+
+
+#Search {
+    margin-left: 50px;
+}
+
+.content {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.content h1{
+    margin: 0 auto;
+    background-color: rgb(245, 161, 161);
+    color: rgb(179, 4, 4);
+    width: 370px;
+    height: 40px;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 20px;
+}
+
+#content2 ul {
+    margin: 0;
+
+}
+
+.back {
+    color: red;
+    font-weight: bolder;
+}
+
+#Honey {
+    color: orange;
+    font-weight: bolder;
+}
+
+#Honey1 {
+    text-transform: uppercase;
+}
+
+#tieude1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    height: 30px;
+    line-height: 30px;
+}
+
+#content1 {
+    height: 400px;
+    width: 15%;
+}
+
+#content2 {
+    width: 65%;
+}
+
+#content3 {
+    width: 20%;
+}
+
+article {
+    display: flex;
+}
+
+#content1 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#content1 ul li {
+    height: 30px;
+    width: calc(100% - 20px);
+    background-color: rgb(245, 161, 161);
+    border-radius: 30px;
+    margin: 5px 0;
+    padding-left: 20px;
+    line-height: 30px;
+    color: white;
+}
+
+#content1 ul a:first-child li{
+    margin: 0;
+}
+
+#content1 ul a{
+    text-decoration: none;
+}
+
+#content1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 6px 20px 9px rgb(245, 161, 161, 0.6);
+}
+
+#content2 form {
+    margin-top: 20px;
+}
+
+.inputbox {
+    width: 400px;
+    height: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.inputbox:last-child {
+    padding: 0;
+}

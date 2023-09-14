@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 1</title>
+    <link rel="stylesheet" href="../css/Bai1.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="Top">Example Cafe Menu</h1>
+    </header>
+    <nav>
+        <a href=""><img src="../img/icons8-home-50.png" alt="home"></a>
+        <a href="#Starters">Starters</a>
+        <a href="#MainCourses">Main Courses</a>
+        <a href="#Desserts">Desserts</a>
+        <input type="text" name="Search" id="Search">
+        <input type="submit" value="Go">
+    </nav>
+    <article>
+        <div class="content" id="content1">
+            <ul>
+                <a href="">
+                    <li>Cafe Latte</li>
+                </a><a href="">
+                    <li>Capuchino</li>
+                </a><a href="">
+                    <li>Ocean Blue</li>
+                </a><a href="">
+                    <li>Ice-cream Cafe</li>
+                </a><a href="">
+                    <li>Order Online</li>
+                </a>
+            </ul>
+            <img src="../img/company.png" alt="">
+        </div>
+        <div class="content" id="content2">
+            <h1 id="Starters">Starter</h1>
+            <ul type="disc">
+                <li>Chestnut and Mushroom Goujons<a href="#" class="back">(v)</a></li>
+                <li>Goat Cheese Salad<a href="#" class="back">(v)</a></li>
+                <li id="Honey1"><span id="Honey">Honey Soy Chicken Kebabs</span><a href="#" class="back">(v)</a></li>
+                <li>Seafood Salad<a href="#" class="back">(v)</a></li>
+            </ul>
+            <a href="#Top" class="back">Back to Top</a>
+            <h1 id="Desserts">Desserts</h1>
+            <ul type="disc">
+                <li>Lemon Sorbet<a href="#" class="back">(v)</a></li>
+                <li>Chocolate Mud Pie<a href="#" class="back">(v)</a></li>
+                <li >Pecan Pie<a href="#" class="back">(v)</a></li>
+                <li>Selection of Fine Cheese from Around the World<a href="#" class="back">(v)</a></li>
+            </ul>
+            <a href="#Top" class="back">Back to Top</a>
+            <h1 id="tieude1">Information</h1>
+            <form action="">
+                <table>
+                    <tr>
+                        <td>
+                            <input type="text" name="FirstName" id="FN" placeholder="First Name" class="inputbox">
+                        </td>
+                        <td>
+                            <input type="text" name="LastName" id="LN" placeholder="Last Name" class="inputbox">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="email" name="Email" id="EM" placeholder="Email" class="inputbox">
+                        </td>
+                        <td>
+                            <input type="text" name="Telephone" id="Tel" placeholder="Telephone" class="inputbox">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select name="Country" id="CT" class="inputbox">
+                                <option value="USA" >USA</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="radio" name="Nn" > Vietnamese
+                            <input type="radio" name="Nn"> Foreginer
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> 
+                            <textarea name="Comment" id="Cmt" cols="80" rows="5" placeholder="Comment"></textarea>
+                        </td>
+                    </tr>
+                </table>
+                
+            </form>
+        </div>
+        <div class="content" id="content3">
+
+        </div>
+    </article>
+</body>
+
+</html>
