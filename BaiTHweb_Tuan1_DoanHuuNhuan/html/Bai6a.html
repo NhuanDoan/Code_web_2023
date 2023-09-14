@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 6a</title>
+    <style>
+        body {
+            background-color: rgb(107, 194, 245);
+        }
+
+        h1 {
+            
+            position: relative;
+            left: 38%;
+        }
+
+        td {
+            height: 20px;
+        }
+
+        .Ad {
+            width: 260px;
+        }
+
+        #Zip {
+            width: 100px;
+        }
+
+        #submit {
+            margin-left: 23%;
+        }
+
+        #st {
+            width: 40px;
+        }
+
+        .ct {
+            width: 130px;
+        }
+
+        #Ln {
+            width: 100px;
+        }
+
+        #Fn {
+            width: 100px;
+        }
+
+        .Tb2 td:first-child {
+            width: 200px;
+        }
+        table tr td{
+           width: 140px;
+        }
+        caption {
+            position: relative;
+            right: 70px;
+        }
+        #use, #Sys {
+            vertical-align: top;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form action="">
+        <table width="45%" align="center" border="1">
+            <caption>Registration your Jackson Electronics product here</caption>
+            <tr>
+                <td>Fist Name:</td>
+                <td>
+                    <input type="text" id="Fn">
+                    Last Name:
+                    <input type="text" id="Ln">
+                </td>
+            </tr>
+            <tr>
+                <td>Address #1:</td>
+                <td>
+                    <input type="text" class="Ad">
+                </td>
+            </tr>
+            <tr>
+                <td>Address #2:</td>
+                <td>
+                    <input type="text" class="Ad">
+                </td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td>
+                    <input type="text" class="ct">
+                    State:
+                    <input type="text" id="st">
+                    Zip:
+                    <input type="text" id="Zip">
+                </td>
+            </tr>
+            <tr>
+                <td>Country:</td>
+                <td>
+                    <input type="text" class="ct" value="United States">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <hr>
+                </td>
+            </tr>
+            <tr>
+                <td>Product:</td>
+                <td>
+                    <select id="pd">
+                        <option value="ScanMaster">ScanMaster</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Date Purchased:</td>
+                <td>
+                    <input type="text" class="ct">
+                </td>
+            </tr>
+            <tr>
+                <td>Serial #:</td>
+                <td>
+                    <input type="text" class="ct">
+                </td>
+            </tr>
+            <tr>
+                <td id="use">Used for:</td>
+                <td>
+                    <table class="Tb2">
+                        <tr>
+                            <td>
+                                <input type="radio" name="usef">
+                                Home
+                            </td>
+                            <td>
+                                <input type="radio" name="usef">
+                                Educational Institution
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" name="usef" checked>
+                                Business
+                            </td>
+                            <td>
+                                <input type="radio" name="usef">
+                                Other
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" name="usef">
+                                Govemment
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td id="Sys">System (check all that apply):</td>
+                <td>
+                    <table class="tb3">
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="sys">
+                                Windows
+                            </td>
+                            <td>
+                                <input type="checkbox" name="sys">
+                                UNIX
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="sys">
+                                Macintosh
+                            </td>
+                            <td>
+                                <input type="checkbox" name="sys">
+                                Other
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <hr>
+                </td>
+            </tr>
+            <tr>
+                <td>Comments?:</td>
+                <td>
+                    <textarea id="cmt" cols="50" rows="7"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Click to register" id="submit">
+                    <input type="reset" value="Click to cancel">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

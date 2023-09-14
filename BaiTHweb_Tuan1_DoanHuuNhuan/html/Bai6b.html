@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 6b</title>
+    <style>
+        body {
+            width: 49vw;
+            height: 34vw;
+            border: 1px solid grey;
+            margin: 0vw auto;
+        }
+
+        h1 {
+            margin-top: 0.6vw;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Contact Us</h1>
+    <form action="">
+        <fieldset>
+            <legend>Your message:</legend>
+            <table>
+                <tr>
+                    <td>To</td>
+                    <td>
+                        <input type="text" name="To" id="To" placeholder="Example Cafe">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Your email</td>
+                    <td>
+                        <input type="text" name="Email" id="Email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Message</td>
+                    <td>
+                        <textarea name="Message" id="Message" cols="48" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Attach File</td>
+                    <td>
+                        <input type="file" name="Attach" id="Attach"  >
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>How you found us:</legend>
+            <table>
+                <tr>
+                    <td>How did you hear of us</td>
+                    <td>
+                        <select>
+                            <option value="Google">Google</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Newsletter</td>
+                    <td>
+                        <input type="checkbox" id="Newsletter" name="Newsletter">
+                        Ensure this box is checked if you would like to receive email updates
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <input type="submit" id="Submit" name="Submit" value="Send message">
+    </form>
+</body>
+
+</html>
